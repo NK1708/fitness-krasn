@@ -1,0 +1,777 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+
+@media only screen and (max-height : 900px)
+
+
+	.first-block
+		padding-bottom: 78px
+	.first-place__title
+		margin: 4px 0
+
+	.second-content__info
+		margin-bottom: 1%
+
+	.second-content__info-line1
+		font-size: 108px
+	.second-content__info-line2
+		font-size: 33px
+	.second-content__items
+		margin-top: 20px
+
+	.second-block__bottom
+		padding: 16px 0
+
+	.third-block__gallery
+		padding-top: 1%
+
+	.third-block__line
+		max-width: 714px
+
+	.img img
+		width: 714px
+		height: 401px
+
+	.it img
+		width: 93px
+		height: 86px
+
+	.fifth-block__btn
+		font-size: 46px
+		padding: 17px 90px
+
+@media only screen and (max-height : 700px)
+
+
+	.first-block
+		padding-top: 55px
+
+	.second-content__info-line1
+		line-height: 96px
+		margin-top: -26px
+
+	.second-content .book_button
+		margin: 7px 0
+
+	.third-block__line
+		max-width: 600px
+
+	.img img
+		width: 600px
+		height: 351px
+
+	.it img
+		width: 77px
+		height: 80px
+
+	.fourth-block__bottom
+		padding: 12px 25px
+
+	.fifth-block__btn
+		font-size: 40px
+		padding: 10px 90px
+		margin-bottom: 12px
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+
+	.header-content__right a
+		font-size: 24px
+
+	.fourth-content__list
+		ul
+			padding-left: 0
+			font-size: 14px
+			li
+				margin-bottom: 17px
+	.fourth-content__phonebox
+		padding-left: 0
+
+	.fourth-content__menu
+		.select2-selection--single
+			width: 260px
+
+	.fifth-block
+		&__text
+			font-size: 28px
+			line-height: 35px
+		&__btn
+			font-size: 59px
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	.logo-min
+		display: none
+	.header
+		&-content
+			text-align: center
+
+	.first-block
+		padding-bottom: 228px
+	.mobile-footer
+		display: none
+
+	.second-block
+		padding-bottom: 122px
+		&__bottom
+			&-line1
+				font-size: 20px
+			&-line2
+				font-size: 24px
+
+
+
+	.second-content
+		height: 100%
+
+	.third-block
+		&__top
+			font-size: 20px
+			&-line2
+				width: 556px
+
+	.third-content
+		margin: 0
+		height: 100%
+
+	.third-block__line
+		max-width: 602px
+
+	.img
+		img
+			width: 602px
+			height: 382px
+	.third-block__line
+		margin-top: 20px
+	.it
+		margin: 0 3px
+		img
+			width: 77px
+			height: 76px
+
+	.fourth-block
+		&__item
+			ul
+				display: none
+			p
+				font-size: 16px
+		&__small
+			display: none
+		&__img
+			width: 60px
+
+
+	.fifth-block
+		padding-bottom: 74px
+		display: flex
+		flex-direction: column
+	
+	.dark
+		height: 100%
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	body
+		overflow-x: hidden!important
+
+	.header
+		display: none
+		&-content
+			flex-direction: column
+			&__left
+				text-align: center
+				font-size: 16px
+				padding-top: 23px
+			&__right
+				display: flex
+				justify-content: center
+				padding-top: 15px
+				span
+					font-size: 11px
+					margin-top: 0
+					margin-right: 10px
+				a
+					font-size: 29px
+
+	.header-mobile
+		display: block
+		position: absolute
+		top: 0
+		width: 100%
+		&-content
+			flex-direction: column
+			&__left
+				text-align: center
+				font-size: 16px
+				padding-top: 12px
+			&__right
+				display: flex
+				justify-content: center
+				padding-top: 10px
+				span
+					font-size: 10px
+					margin-top: 2px
+					margin-right: 10px
+				a
+					font-size: 25px
+			&__logo
+				margin: 0 auto
+				padding-top: 3px
+				img
+					width: 124px
+		
+
+	.first-block
+		padding-bottom: 138px
+		background-position-x: 37%
+
+	.first-place
+		margin-left: 0
+		margin-top: 0
+		&__logo
+			img
+				width: 200px
+			span
+				font-size: 11px
+		&__title
+			font-size: 14px
+		&__item
+			&-line1
+				font-size: 9px
+			&-line2
+				font-size: 12px
+		&__buttons
+			.btn
+				font-size: 11px
+				padding: 10px 20px
+
+
+	.second-block
+		padding-bottom: 203px
+		&__bottom
+			padding: 8px 0
+			&-line1
+				font-size: 11px
+				line-height: normal
+				margin-bottom: 40px
+			&-line2
+				font-size: 14px
+				line-height: normal
+				margin-top: -26px
+			.line-vert
+				display: none
+			br
+				display: block
+		.second-content
+			height: 100%
+			&__info
+				margin-bottom: 7%
+				&-line1
+					font-size: 84px
+				&-line2
+					font-size: 15px
+					margin-top: -26px
+			&__inputs
+				flex-direction: column
+			.main-input
+				margin-left: 0
+				font-size: 22px
+				width: auto
+				margin-bottom: 2%
+			.main-input.phone
+				text-align: center
+			.book_button
+				font-size: 10px
+				border: 1px solid #fff
+				padding: 7px 17px
+				margin: 7px 0
+
+	.accord label
+		width: auto
+
+
+	.third-block
+		&__top
+			font-size: 16px
+			.container
+				padding: 0
+				margin: 0
+			&-line2
+				width: 100%
+		&__text
+			font-size: 11px
+			line-height: normal
+			margin-top: 41%
+		&__gallery
+			padding-top: 27%
+		.owl-prev
+			background-size: 49%
+			left: 38%
+			top: 55px
+		.owl-next
+			background-size: 49%
+			right: 38%
+			top: 55px
+
+	.third-block__line
+		max-width: 290px
+
+	.img
+		img
+			width: 290px
+			height: 187px
+			border: 1px solid #fff
+	.third-block__line
+		margin-top: 5px
+	.it
+		margin: 0 3px
+		border: 1px solid #fff
+		img
+			width: 34px
+			height: 38px
+
+
+	.mobile-footer
+		.book-link
+			font-size: 32px
+			line-height: 43px
+
+
+	.fourth-block
+		justify-content: space-between
+		padding-top: 115px
+		background-position-x: 44%
+		&__top
+			font-size: 16px
+			padding: 5px 10px
+		&__items
+			flex-direction: column
+			img
+				width: 30px
+			p
+				font-size: 11px
+			br
+				display: none
+		&__item
+			margin-bottom: 15px
+		&__item1
+			p:not(:last-child)
+				margin-bottom: 10px
+		.container-np
+			padding: 0
+		&__bottom
+			padding: 10px 25px
+			&-line1
+				font-size: 16px
+				margin-bottom: 10px
+			&-line2
+				font-size: 11px
+				flex-direction: column
+			&-item
+				margin-bottom: 10px
+			&-item1
+				img
+					height: 39px
+			&-item2
+				img
+					height: 24px
+			&-item3
+				img
+					height: 29px
+
+	.fifth-block
+		padding-bottom: 93px
+		background-position-x: 89%
+		&__price
+			font-size: 84px
+		&__attention
+			font-size: 12px
+		&__timerbox
+			padding-left: 5px
+			margin-top: 13px
+		.countdown-amount
+			font-size: 16px
+		.countdown-period
+			font-size: 9px
+			margin-left: 3px
+			color: #fff
+		.countdown-section
+			text-align: left
+		.countdown-section:not(:last-child):after
+			height: 25px
+			top: 0
+			right: 10px
+		&__btn
+			font-size: 27px
+			padding: 10px 30px
+			border: 1px solid #fff
+
+
+	.sixth-block
+		padding-bottom: 138px
+
+	.sixth-content__phrase
+		line-height: 35px!important
+		margin-bottom: 20px!important
+		font-size: 36px
+	.sixth-content
+		.book_button
+			font-size: 39px
+			padding: 15px 37px
+
+	.dark
+		height: 100%
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+
+	.header-content__logo 
+		img
+			width: 145px
+
+	.first-block
+
+	.first-place
+		display: block
+		&__title
+			margin-top: 20px
+		&__item
+			margin: 0 7px
+		&__logo
+			padding-top: 22%
+			span
+				padding: 3px 5px
+		&__info
+			padding-top: 18%
+		&__buttons
+			padding-top: 13px
+
+
+
+	.second-block
+		padding-bottom: 138px
+		background-size: 396%
+		.second-content
+			height: 100%
+			padding-top: 10px
+			&__info
+				&-line1
+					line-height: inherit!important
+					margin-top: 0!important
+
+
+	.third-block
+		&__top
+			padding: 0
+
+	.third-content__items
+		.select2-container
+			width: 280px!important
+			font-size: 24px
+
+	.third-content
+		font-size: 17px
+		margin-top: 0!important
+		.container
+			height: 62%
+		.row, .col-sm-12
+			height: 100%
+		#query-form
+			height: 100%
+			display: flex
+			flex-direction: column
+			justify-content: space-around
+		&__items
+			margin-top: 5px
+			height: 100%
+			.select2-selection--single
+				height: 35px
+		.main-input
+			width: 100%
+			margin-bottom: 7px
+		.book_button
+			font-size: 19px!important
+			margin: 4px 0!important
+			padding: 4px 10px!important
+			line-height: 24px!important
+
+	.accord
+		label
+			font-size: 6px!important
+			line-height: 8px!important
+	.accord .checkbox+label:before
+		top: 7px
+	.third-content__items
+		margin-top: 12px!important
+		.select2-container--default
+			.select2-selection--single
+				.select2-selection__arrow
+					height: 33px
+					width: 33px
+					background-size: 20px
+				.select2-selection__rendered
+					margin-top: 0
+					font-size: 12px
+		.select2-container--open
+			.select2-dropdown--below
+				width: 280px!important
+	.select2-container--open
+		.select2-dropdown--below
+			font-size: 15px
+
+	.final-price
+		margin: 5px 0
+
+	.accord
+		label
+			width: 100%
+
+
+
+
+	.fourth-content__menu 
+		padding-top: 10px
+		ul 
+			li
+				margin-bottom: 2px!important
+			span
+				font-size: 12px
+
+	.fourth-content__menu 
+		.select2-selection--single
+			height: 34px
+			width: 280px
+		.select2-container
+			margin-bottom: 13px
+
+	.fourth-content__menu 
+		.select2-container--default 
+			.select2-selection--single 
+				.select2-selection__arrow
+					height: 33px
+					width: 33px
+					background-size: 20px
+				.select2-selection__rendered
+					margin-top: 0
+					font-size: 12px
+					padding-left: 45px
+	
+	.fourth-content__list
+		height: 92%!important
+		width: 75%!important
+
+	.fifth-block
+		padding-bottom: 0
+		.fifth-content
+			padding-top: 20px
+			height: 60%
+			.container
+				height: 100%
+			.row
+				height: 100%
+			.col-sm-12
+				height: 100%
+				display: flex
+				flex-direction: column
+				justify-content: space-around
+		.fifth-content__phrase
+			font-size: 17px!important
+			line-height: 29px!important
+		.fifth-content__box
+			font-size: 10px
+			margin-top: 0
+		.fifth-content__list
+			margin-bottom: 43px
+			overflow-y: scroll
+			height: 196px
+			display: block
+			ul
+				margin-bottom: 3px
+				padding-left: 16px
+				height: auto
+				span
+					font-size: 11px
+		.fifth-mobile__btn
+			padding: 3px 25px
+			border: 5px solid #fff
+
+
+	.fifth-block
+		.fifth-content__more
+			font-size: 11px
+			bottom: 0
+		.web-logo 
+			padding: 7px
+			border: 1px solid #fff
+			img
+				width: 80px
+
+
+	.fifth-mobile
+		padding-bottom: 50px
+		&__left
+			font-size: 27px
+			    margin-bottom: -5px
+		&__right
+			font-size: 15px
+
+	.sixth-content__phrase
+		line-height: 27px
+		margin-bottom: 41px
+		font-size: 34px
+		width: 91%
+		margin: 0 auto
+	.sixth-content
+		&__box
+			br
+				display: block
+		.book_button
+			font-size: 20px
+			padding: 15px 37px
+
+
+	.fourth-content__list
+		height: 87%
+		ul 
+			li
+				margin-bottom: 13px
+
+	.map-select-parent
+		.select2-container--open
+			.select2-dropdown--below
+				width: 182px!important
+				font-size: 14px
+				margin-left: 33px
+
+	.header-mobile
+		.col-sm-12
+			padding: 0
+
+	.mobile-footer
+		.book-link
+			font-size: 16px
+			line-height: 18px
+	.form-red-text
+		font-size: 12px
+
+	.form_message
+		font-size: 9px
+
+	#msg_pop
+		font-size: 7px
+		line-height: normal
+		padding: 10px 40px 10px 5px
+
+
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
+@media (max-width: 500px)
+  .second-content-red
+    top: 20%
+
+@media (max-width: 500px)
+	.second-content
+		background-position: 20% center!important
+	.second-content-red .second-content-red__title
+		font-size: 22px!important
+		padding: 5px 10px!important
+    height: 35px!important
+    width: 220px!important
+	.second-content-red .second-content-red__p
+		font-size: 14px!important
+		width: 70%
+	.second-content-hhide
+		font-size: 22px!important
+
+	.btn-dark
+		bottom: 145px!important
+		left: 20px!important
+
+@media (max-height:890px)
+  .second-content-red
+		top: 40%
+
+@media (max-height:800px)
+	.modal
+		top: 0
+		h2
+			margin-top: -15px
+
+
+@media (max-width: 400px)
+	.first-place-title
+		bottom: 200px
+		font-size: 34px
+		padding: 0 10px
+	.second-content-red .second-content-red__title
+		font-size: 24px
+		width: 224px!important
+		height: 40px!important
+	.second-content-red .second-content-red__p
+		font-size: 10px!important
+		width: 70%
+		padding-top: 0
+	.btn-dark
+		bottom: 145px
+		left: 20px
+	.form-red-text
+		font-size: 12px
+	.fifth-block .fifth-content__box
+		font-size: 12px
+		padding: 10px 15px
+	.fifth-block .fifth-content__more
+		bottom: 0px
+	.third-content__items
+		margin-top: 30px
+	.third-content .container
+		height: 73%
+	.sixth-content__phrase
+		width: 90%
+		letter-spacing: 0px
+	.btn-dark
+		padding: 7px 50px
+
+@media (max-width: 1170px)
+  .first-place
+    background-position: center
